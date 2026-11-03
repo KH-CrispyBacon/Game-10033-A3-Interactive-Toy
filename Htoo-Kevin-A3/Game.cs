@@ -15,7 +15,8 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-
+            Window.SetTitle("Piano Music Sheet");
+            Window.SetSize(800, 600);
         }
 
         /// <summary>
@@ -23,7 +24,10 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
+            //Clear background to offwhite color
+            Window.ClearBackground(240);
 
+            
         }
     }
 
