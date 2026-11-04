@@ -52,7 +52,7 @@ namespace MohawkGame2D
             Draw.Line(125, 25, 75, 25);
             Draw.Line(75, 25, 75, 225);
             Draw.Line(75, 225, 50, 225);
-            Draw.Circle(50, 225, 10);
+            //Draw.Circle(50, 225, 10);
 
             //Making the piano outline
             Draw.SetLineColor(Color.Black);
@@ -85,25 +85,129 @@ namespace MohawkGame2D
             Draw.Rectangle(680, 300, 40, 150);
 
 
-           
+            //If Statements for each key
+            //If Players hits the 1-8 key on the keyboard than a whole note will appear on their corrisponding spot
+
+            //Making if statement for F note
+            if (Input.IsKeyboardKeyDown(KeyboardKey.One) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(200, 225, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(200, 225, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(70, 300, 80, 300);
+
+            }
+
+            // Making if statement for G note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Two) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(250, 200, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(250, 200, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(150, 300, 80, 300);
+
+            }
+
+            //Making if statement for A note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Three) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(300, 175, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(300, 175, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(240, 300, 80, 300);
+
+            }
+
+            //Making if statement for B note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Four) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(350, 150, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(350, 150, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(320, 300, 80, 300);
+
+            }
+
+            //Making if statement for C note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Five) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(400, 125, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(400, 125, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(400, 300, 80, 300);
+
+            }
+
+            //making if statement for d note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Six) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(450, 100, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(450, 100, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(480, 300, 80, 300);
+
+            }
+
+            //making if statement for e note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Seven) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(500, 75, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(500, 75, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(550, 300, 80, 300);
+
+            }
+
+            //making if statement for f note
+
+            if (Input.IsKeyboardKeyDown(KeyboardKey.Eight) == true)
+            {
+                //if 1 key is pressed down then whole note appears and key note turns red
+                Draw.SetFillColor(Color.Black);
+                Draw.Circle(550, 50, 25);
+                Draw.SetFillColor(Color.White);
+                Draw.Circle(550, 50, 12);
+                Draw.SetFillColor(Color.Red);
+                Draw.Rectangle(630, 300, 80, 300);
+
+            }
 
 
 
 
 
-           
-
-            
-            
 
 
 
-            
 
 
-            
-           
-            
         }
     }
 
